@@ -8,6 +8,7 @@
     "symfony/http-foundation": "dev-master",
     "nikic/fast-route": "^1.2"
   },
+  "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
       "Framework\\Base\\": "base/",
