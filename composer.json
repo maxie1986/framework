@@ -1,0 +1,17 @@
+{
+  "name": "maxie1986/framework",
+  "description": "Exercise",
+  "type": "project",
+  "require": {
+    "php": ">=5.5.9",
+    "illuminate/database": "5.*",
+    "symfony/http-foundation": "dev-master",
+    "nikic/fast-route": "^1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Framework\\Base\\": "base/",
+      "Framework\\Controllers\\": "controllers/"
+    }
+  }
+}
